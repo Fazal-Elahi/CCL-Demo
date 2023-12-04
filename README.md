@@ -44,9 +44,9 @@ The project uses a Python virtual environment to manage dependencies.
   pip install -r requirements.txt 
   ```
 ### 4. Environment Variables
-Create a `.env` file in the root of your project and add the following environment variables:
+Create a `.env` file in the root folder and add the following environment variables:
 - `DATABASE_URI`: Your MongoDB connection URI.
---- `Example` : DATABASE_URI=mongodb://localhost:27017/
+- `Example` : DATABASE_URI=mongodb://localhost:27017/
 - `API_KEY`: Your API key for getaddress.io.
--- `Example` : API_KEY=your_api_key_here
+- `Example` : API_KEY=your_api_key_here
 
